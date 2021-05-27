@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |spec|
-  spec.name         = "UrwayFramework"
+  spec.name         = "Urway"
   spec.version      = "1.1.4"
   spec.summary      = "A short description of Urway."
   spec.homepage     = "https://github.com/ameralshabebi/UrwayFramework"

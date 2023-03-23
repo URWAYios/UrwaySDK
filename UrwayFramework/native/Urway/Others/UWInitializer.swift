@@ -48,6 +48,8 @@ public class UWInitializer {
     var udf4: String?
     var udf5: NSString?
     var transid: String?
+    var metaData:String?
+    
     
     var merchantidentifier: String?
     var tokenizationType: String?
@@ -55,7 +57,6 @@ public class UWInitializer {
     
     
     public init(amount: String ,
-    transid: String? = nil,
          email: String ,
          zipCode: String? = nil ,
          currency: String ,
@@ -74,7 +75,9 @@ public class UWInitializer {
          cardToken: String? = nil,
          cardOper: String,
          state: String? = nil,
+         transid: String? = nil,
          merchantidentifier: String? = nil,
+                metaData: String? = nil,
          tokenizationType: String){
 //         ,
 //         holderName: String? = nil) {
@@ -107,6 +110,7 @@ public class UWInitializer {
         
         self.tokenizationType = tokenizationType
         self.transid=transid
+        self.metaData=metaData
         self.merchantidentifier = merchantidentifier
         //self.holderName = holderName
     }
